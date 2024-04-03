@@ -1,9 +1,12 @@
 
-# welcome to WOtech1
+# welcome to WOtech1 😎😉
 
 ## My skills
 - Java
 - Python
+- Java Script
+- HTML
+- CSS
 - Github
 - Replit
 - Colab
