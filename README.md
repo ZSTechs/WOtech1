@@ -32,10 +32,7 @@ public class Main {
     } else if (season =="autumn"){
       System.out.println ("wear a rain coat!");
     } else
-      System.out.println ("Something went wrong!");
-    
+      System.out.println ("Something went wrong!");    
   }
-
- 
 }
 ```
