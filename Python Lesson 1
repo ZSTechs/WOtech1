@@ -1,0 +1,169 @@
+text="good morning!"
+print(text)
+#cipari
+number=123
+print(number)
+#komentārs
+
+name="Zane" #text
+surname="Stuķēna" #text
+age= 35 #intiger
+occupation="programmer" #text
+university_graduate=True #boolean
+height= 170.23 #float
+print(f"Full name: {name} {surname}\nOccupation: {occupation}\nUni degree: {university_graduate}")
+
+var1=100
+print(var1)
+
+name = "trees "*3
+print(name)
+
+name=input("Whats your name?:")
+print("Hello",name, "nice to meat you")
+
+name="Anna"
+surname="Saule"
+print(f"Hello {name}!")
+
+name=input("What is your name?: ")# tas ir teksts/ te
+surname= input("What is your surname?: ") # tas ir teksts/ text
+
+telephoneNumber= 1234567890;
+age= 35 # tas ir vecums/ age
+adress= "address"
+Is_a_Student= True
+shoeSize= 39.5
+gender= 'm'
+height= 1.70
+weight= 70.5
+salary= 2000
+is_married= False
+children= 1
+hobby= input("What is your hobby?: ")
+favorite_color= "blue"
+Bank_name=input("What is your bank?")
+Bank_account=input("fill in your bank account:");
+Bank_login_number=input("fill inyour number:");
+Bank_password= input("fill in your pasword:");
+
+print(f"full name:{name}{surname}")
+
+name=input("What is your name:")# tas ir teksts/ te
+surname= input("What is your surname") # tas ir teksts/ text
+print(f"Hi, {name} {surname} !")
+telephoneNumber= 1234567890;
+age= 35 # tas ir vecums/ age
+adress= "address"
+Is_a_Student= True
+print(f"So you are a student? {Is_a_Student}")
+shoeSize= 39.5
+gender= 'm'
+height= 1.70
+weight= 70.5
+
+salary= 2000
+is_married= False
+children= 1
+hobby= input("What is your hobby?")
+favorite_color= "blue"
+Bank_name=input("What is your bank?")
+Bank_account=input("fill in your bank account:");
+Bank_login_number=input("fill inyour number:");
+Bank_password= input("fill in your pasword:");
+
+print(f"You are {heigt} tall and weight {weight}kg.")
+
+
+name=input("What is your name?:")# tas ir teksts/ te
+surname= input("What is your surname?:") # tas ir teksts/ text
+print(f"Hi, {name} {surname} !")
+telephoneNumber= 1234567890;
+age= 35 # tas ir vecums/ age
+adress= "address"
+Is_a_Student= True
+print(f"So you are a student? {Is_a_Student}")
+shoeSize= 39.5
+gender= 'm'
+height= 1.70
+weight= 70.5
+print(f"You are {height}cm tall and weight {weight}kg.")
+salary= 2000
+is_married= False
+print(f"Did I understad correct from your questionnaire, you are married?  It is {is_married}")
+children_yes_or_no= True
+children= 1
+print(f"Do you have a children? {children_yes_or_no}")
+print(f"I have {children} children")
+hobby= input("What is your hobby?")
+print(f"Nice, you like {hobby}. My hobby is gardening.")
+favorite_color= "blue"
+Bank_name=input("What is your bank called?")
+Bank_account=input("fill in your bank account:")
+Bank_login_number=input("fill in your number:")
+Bank_password= input("fill in your password:")
+print(f"So, you have a bank account in {Bank_name}\nyour account is: {Bank_account}\nlogin is: {Bank_login_number}\npassword is: {Bank_password}.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
