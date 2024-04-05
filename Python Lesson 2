@@ -1,0 +1,6 @@
+#1 uzdevums pounds to kg
+#1 pounds is 0.453592
+pounds=float(input("How meny pounds?:"))
+conversation_value= 0.453592
+kg=round(pounds*conversation_value,2)
+print(f"Waight in pounds was {pounds} lb, but in kg is: {kg} kg")
