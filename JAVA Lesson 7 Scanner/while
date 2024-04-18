@@ -1,0 +1,114 @@
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+
+    Scanner scanner = new Scanner(System.in); //Opening a channel
+    System.out.println("Hello!");
+    int age; //number = 7
+    System.out.println("What is your age?");
+    age = scanner.nextInt(); // Waits for us to provide an integer
+    System.out.println("The users age is:" + age);
+    
+    //
+    scanner.close(); // Closing the channel
+    //scanner.nextLine(); // Waits for us to provide a string until pressed enter 
+  }
+}
+
+// 2.
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+
+    Scanner scanner = new Scanner(System.in); //Opening a channel
+    System.out.println("Write a number");
+    int a = scanner.nextInt();
+    System.out.println("Write an another number");
+    int b = scanner.nextInt();
+
+    System.out.println("A sum of A and B is " + (a + b));
+
+    scanner.close(); // Closing the channel
+    //scanner.nextLine(); // Waits for us to provide a string until pressed enter 
+  }
+}
+
+//3.
+public class Main {
+      public static void main(String[] args) {
+
+        int amountOfTimesToDuck = 10;
+        while (amountOfTimesToDuck != 0) {
+          System.out.println("Duck");
+          amountOfTimesToDuck = amountOfTimesToDuck - 1;
+        }
+      }
+    }
+
+//4.
+public class Main {
+  public static void main(String[] args) {
+    int i=0;
+    while (i<10){
+    System.out.println(i);
+    i=i+1;
+    }
+  }  
+}
+
+//5.
+public class Main {
+  public static void main(String[] args) {
+    int i=1;
+    boolean IsEven=false;
+    while (i<=10){
+    String evenOrOdd="";
+     if (IsEven==true){
+       evenOrOdd="even";
+     } else {
+       evenOrOdd="odd";
+     }
+    System.out.println(i+" is "+evenOrOdd);
+    i=i+1;
+      IsEven=!IsEven;
+    }
+  }
+}
+
+//6.
+public class Main {
+  public static void main(String[] args) {
+    int i = 1; // 1
+          //1 <= 10 -> TRUE
+          //2 <= 10 -> TRUE
+          //3 <= 10 -> TRUE
+          //...
+          //11 <= 10 -> FALSE
+    while (i <= 10) {
+      String result = ""; // Result
+      if (i % 2 == 0) { //Odd or even
+        result = "even";
+      } else {
+        result = "odd";
+      }
+                        //1 odd
+                        //2 even
+      System.out.println(i + " " + result);
+      i = i + 1; // i = i + 1;
+      //i = 1 + 1;
+      //i = 2 + 1;
+      //i = 3 + 1;
+    }
+  }
+}
+
+//7.
+
+
+
+
+
+
+
