@@ -1,0 +1,64 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+  
+  /*int number=5;
+  int number2=10;
+  int number3=15;
+  */
+
+int[] number={5,10,15};
+    System.out.println(number[0]+number[2]);
+    
+  }
+}
+
+//2.
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner sc= new Scanner(System.in);
+    
+    //int[] arr = { 5, 7, 9 };
+    int[] arr = new int[5];
+    System.out.println("Enter the elements of the array 0");
+    arr[0] = sc.nextInt();
+    arr[1] = 7;
+    arr[2] = 9;
+    arr[3] = 12;
+    arr[4] = 15;
+    for (int i = 0; i < arr.length; i++)// nodrošina,ka ātri viss tiek izprintēts, nav jāraksta daudz printēšanas komandu.
+    System.out.println(arr[i]);
+  }
+}
+
+//3.
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in); //
+
+    int[] arr = new int[5]; // Bounds is from 0 to 4
+    // We ask the computer to create a closet
+    //Where we could put 5 different boxes of a number
+    // arr[0] = 5
+    // arr[1] = 8
+    // arr[2] = 13
+    // arr[3] = 54
+    // arr[4] = 80
+    // arr[5] Index out of bounds
+    //ievada arrays
+    for (int i = 0; i < arr.length; i++) { // 0 ... 1 -> 4
+      //int number = scanner.nextInt();
+      //arr[5] = scanner.nextInt();
+      arr[i] = scanner.nextInt(); // 80
+    }
+    //izprintē  arrays
+    for (int i = 0; i < arr.length; i++) { // 0 -> 4
+      System.out.println(arr[i]); // We are accessing arr[3]
+    }
+    scanner.close();//
+  }
+}
+
