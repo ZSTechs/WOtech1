@@ -61,3 +61,33 @@ int secValue = 100;
     System.out.println(secValue);
   }  
 }
+
+```java
+import java.util.Scanner;  
+public class Main {
+  public static void main(String[] args) {
+    Scanner user = new Scanner(System.in);  
+    System.out.println("Enter your name");
+    String userName = user.nextLine();  
+    System.out.println("Hi, " + userName);  
+
+    Scanner age = new Scanner(System.in);
+    System.out.println("What is your age?");
+    String ageName = age.nextLine();
+
+    Scanner proffesion = new Scanner(System.in);  
+    System.out.println("What is your proffesion?");
+    String proffesionName = proffesion.nextLine();
+    
+    Scanner season = new Scanner(System.in);
+    System.out.println("What is your favorite season of the year?");
+    String seasonName = season.nextLine();
+    
+    Scanner hobby = new Scanner(System.in);
+    System.out.println("Enter hobby");
+    String hobbyName = hobby.nextLine();
+
+System.out.println(userName+ " ,thank you for answering my questions, now I know you are a " +ageName+ " years old "+ proffesionName + " who likes " + seasonName+ " and loves to " + hobbyName+ ".");
+  }
+}
+```
