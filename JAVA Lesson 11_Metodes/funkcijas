@@ -1,0 +1,64 @@
+// Metode== Funkcija;
+
+public class Main { // Main ir klase, kas pārbauda metodes un klases
+  public static void main(String[] args) { // main-tā ir metode/ funkcija, kas izsauc metodes.
+
+
+// Metodes klasē "Main" ir iespējams mainīt un kārtot kā ērtāk. 
+//public / private /protected- pieejamība. Koda datus no cita faila, kas ir privāts, nevarēs paņemt.
+// static/ "nothing" - nav jāveido lieki objekti, bet var izmantot klasi. (Main.printOutABorder().)
+// void /int/ string/ int[]/ boolean/...- Void- neatgriež neko, ir tikai darbība. Metode neatgriež vērtību. 
+//void vietā liekot, piemēram,int- tad beigās var būt tikai tikai int.
+// String[] args - metodei ir argumenti, kas ir mainīgie, kas ir i
+    
+    printOutABorder();
+    
+    int number=sum();
+    System.out.println(number);
+
+    
+    zanesIdeja();
+    printOutABorder();
+    zanesIdeja();
+    printOutABorder();
+    
+  }  
+  public static void zanesIdeja(){
+      System.out.println("Zane, Tu esi labākā!");
+    }
+  
+  public static void printOutABorder(){// tā arī ir metode.
+    System.out.println("***************"); // tā ir funkcija
+  }
+
+  public static int sum(){
+    return 10;
+  }
+
+  
+}
+
+/*public class Main {
+
+  public static void main(String[] args) {
+    int number1 = 5;
+    int number2 = 7;
+    int result = sum(number1, number2);
+    System.out.println(result);
+  }
+
+
+  public static int sum (int number1, int number2) {
+    return number1 + number2;
+  }
+}
+
+/*public class Main {
+
+  public static void main(String[] args) {
+    int number1 = 5;
+    int number2 = 7;
+    int result = number1 + number2;
+    System.out.println(result);
+  }
+}*/
